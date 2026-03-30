@@ -1,4 +1,4 @@
-# 📄 AI Resume Genrator
+# 📄 AI Resume Generator
 
 A Streamlit application that generates tailored resumes, cover letters, and interview prep packages from any job description — powered by Google Gemini.
 
