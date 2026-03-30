@@ -1,0 +1,41 @@
+# --- Byte-compiled / optimized / DLL files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# It is standard practice to never commit the .venv folder
+.venv/
+venv/
+env/
+ENV/
+
+# --- Environment Variables & Secrets ---
+# CRITICAL: This hides your Gemini API keys
+.env
+.env.local
+secrets.toml
+config.json
+
+# --- Streamlit specific ---
+# Streamlit sometimes stores secrets or credentials here
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# --- Distribution / Build ---
+dist/
+build/
+*.egg-info/
+
+# --- OS Specific (Windows/Mac) ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- IDE Specific ---
+.vscode/
+.idea/
+*.swp
+
+*.pdf
+output/
