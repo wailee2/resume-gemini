@@ -26,7 +26,7 @@ git clone <your-repo> && cd ai-resume-generator
 ### 2. Create a virtual environment (recommended)
 ```bash
 python -m venv .venv
-venv\Scripts\activate     # Mac/Linux: source venv/bin/activate
+.venv\Scripts\activate     # Mac/Linux: source venv/bin/activate
 ```
 
 ### 3. Install dependencies

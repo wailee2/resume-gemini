@@ -4,21 +4,18 @@ __pycache__/
 *$py.class
 
 # --- Virtual Environments ---
-# It is standard practice to never commit the .venv folder
 .venv/
 venv/
 env/
 ENV/
 
 # --- Environment Variables & Secrets ---
-# CRITICAL: This hides your Gemini API keys
 .env
 .env.local
 secrets.toml
 config.json
 
 # --- Streamlit specific ---
-# Streamlit sometimes stores secrets or credentials here
 .streamlit/config.toml
 .streamlit/secrets.toml
 
@@ -39,3 +36,5 @@ desktop.ini
 
 *.pdf
 output/
+
+resume.txt*
