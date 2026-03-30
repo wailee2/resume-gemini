@@ -20,7 +20,7 @@ A Streamlit application that generates tailored resumes, cover letters, and inte
 
 ### 1. Clone / download the project
 ```bash
-git clone https://github.com/wailee2/resume-gemini && cd ai-resume-generator
+git clone https://github.com/wailee2/resume-gemini && cd resume-gemini
 ```
 
 ### 2. Create a virtual environment (recommended)
