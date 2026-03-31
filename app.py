@@ -1,5 +1,7 @@
 import streamlit as st
 
+from ui.sidebar import render_sidebar
+
 class ResumeGeneratorApp:
     def __init__(self):
         st.set_page_config(
@@ -54,7 +56,12 @@ class ResumeGeneratorApp:
         )
 
     def run(self):
+        self._render_css()
+
+        sidebar_data = render_sidebar()
         self._render_hero()
+
+        
         
         col1, col2 = st.columns([1, 1])
         with col1:
